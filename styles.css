@@ -40,7 +40,7 @@ header {
   align-items: center;
   z-index: 999;
 }
-header h1{
+header h1 {
   font-size: 300%;
   color: var(--text-color);
   font-weight: 800;
@@ -300,5 +300,148 @@ footer div span {
 footer:nth-child(2) {
   border-radius: none;
   font-size: 200%;
- 
+}
+
+/* Mobile Responsive */
+@media only screen and (max-width: 600px) {
+  header {
+    padding: 5px 0 0 0;
+  }
+  header h1 {
+    font-size: 100%;
+  }
+  header nav {
+    display: none;
+  }
+
+  .contentBox {
+    /* flex-direction: column; */
+    display: unset;
+    /* min-width: 0; */
+    padding: 0% 0 0 0;
+    width: 100%;
+  }
+  .home-img img {
+    width: 250%;
+  }
+  .contentBox .iconSpace {
+    margin: 15% 0 0 0;
+    padding: 0 1% 0 1%;
+  }
+  .contentBox .info {
+    width: 100%;
+  }
+  .contentBox h3 {
+    font-size: 130%;
+  }
+  .contentBox button {
+    font-size: 19%;
+    width: 37%;
+    padding: 2%;
+  }
+  .contentBox span {
+    font-size: 150%;
+  }
+  .contentBox h1 {
+    font-size: 180%;
+  }
+  .contentBox p {
+    font-size: 10px;
+    text-align: justify;
+    padding-right: 5%;
+  }
+  .contentBox .iconSpace {
+    flex-direction: row-reverse;
+    font-size: 50%;
+  }
+  .iconSpace i {
+    margin-left: 0;
+  }
+  .About {
+    /* display: unset; */
+    flex-direction: column-reverse;
+    /* background-color: var(--second-bg-color); */
+  }
+  .About p{
+    font-size: 10px;
+  }
+  .About h2{
+    font-size: 190%;
+  }
+  .About h3{
+    font-size: 150%;
+  }
+  .About button{
+    font-size: 10px;
+    width: fit-content;
+    padding: 2%;
+  }
+  .About img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+ .Projects div{
+  padding: 4%;
+ }
+ .Projects div p{
+  font-size: 10px;
+ }
+ .Projects div h2{
+  font-size: 150%;
+ }
+ .Projects{
+  margin: 0;
+ }
+ .Projects div button{
+font-size: 100%;  
+padding: 1% 2% 1% 2%;
+ }
+ .Projects ,.buttonLast{
+  font-size: 100%;
+  width: fit-content;
+ }
+ .contactme form .input-box{
+    /* display: unset; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactme form .input-box input{
+    font-size: 100%;
+    width: 90%;
+    /* width: fit-content; */
+    height: fit-content;
+
+  }
+.contactme h1{
+  font-size: 250%;
+}
+
+.contactme form textarea {
+  font-size: 100%;
+  width:90%;
+
+}
+.contactme button{
+  font-size: 120%;
+  padding: 3%;
+  width: 90%;
+}
+center {
+  display: unset;
+  font-size: 150%;
+}
+
+  footer {
+    /* display: unset; */
+    padding: 4% 0 3% 0 ;
+    flex-direction: column;
+  }
+  footer div{
+    width: 90%;
+  }
+  footer div h2{
+    font-size: 120%;
+  }
 }
