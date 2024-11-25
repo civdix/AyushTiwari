@@ -435,13 +435,17 @@ center {
 
   footer {
     /* display: unset; */
-    padding: 4% 0 3% 0 ;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* padding: 4% 0 3% 0 ; */
     flex-direction: column;
   }
+  
   footer div{
     width: 90%;
+    /* text-align: center; */
   }
-  footer div h2{
-    font-size: 120%;
-  }
+  /* footer div h2{
+    font-size:100%
+  } */
 }
