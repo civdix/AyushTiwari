@@ -352,10 +352,12 @@ float: left;
   .contentBox h3 {
     font-size: 130%;
   }
-  .contentBox button {
-    font-size: 19%;
-    width: 37%;
-    padding: 2%;
+
+
+    .info .btn,.info .btn-2 {
+    font-size: 100%;
+    width: 42%;
+    padding: 1%;
   }
   .contentBox span {
     font-size: 150%;
@@ -374,7 +376,10 @@ float: left;
   }
   .iconSpace i {
     margin-left: 0;
+    font-size: 350%;
   }
+
+  
   .About {
     /* display: unset; */
     flex-direction: column-reverse;
