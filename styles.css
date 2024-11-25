@@ -45,6 +45,7 @@ header h1 {
   color: var(--text-color);
   font-weight: 800;
   cursor: default;
+  margin-left:5%;
 }
 nav a {
   font-size: 150%;
